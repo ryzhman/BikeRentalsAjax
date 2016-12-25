@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/src/js/dataProcessor.js" />
+        <item url="file://$PROJECT_DIR$/dist/webpack.config.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/main.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/dataAccess.js" />
+        <item url="file://$PROJECT_DIR$/dist/build/bundle.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/src/js/dataProcessor.js" />
+      <root url="file://$PROJECT_DIR$/dist/webpack.config.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/main.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/dataAccess.js" />
+      <root url="file://$PROJECT_DIR$/dist/build/bundle.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
