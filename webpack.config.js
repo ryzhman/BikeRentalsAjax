@@ -10,12 +10,13 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [{
-            test: /\.hbs/,
-            loader: "handlebars-template-loader"
-        }]
-    },
-    module: {
+        preLoaders: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: "jshint-loader"
+            }
+        ],
         loaders: [
             {
                 test: /\.html$/,
@@ -30,13 +31,5 @@ module.exports = {
                 }
             }
         ],
-        preLoaders: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: "jshint-loader"
-            }
-        ]
     },
-
 };
